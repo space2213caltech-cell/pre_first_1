@@ -7,12 +7,16 @@
   <body>
     <h1>はじめてのJavaScript</h1>
     <p>このページには簡単なJavaScriptが書かれています。</p>
+    let score = 85;
 
-    <script>
-      // これはコメント（説明文）
-      // 下の行はコンソールに文字を出すだけ
-      console.log("JavaScriptが実行されました！");
-    </script>
+if (score >= 90) {
+  console.log("すごい！満点！");
+} else if (score >= 60) {
+  console.log("合格！");
+} else {
+  console.log("残念…");
+}
+
   </body>
 </html>
 
